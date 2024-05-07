@@ -1,4 +1,6 @@
 
+/* Break Point 768 */
+
 @media screen and (min-width: 768px) {
      /* Profile Section */
     .profile-img {
@@ -20,6 +22,8 @@
     }
 
 }
+
+/* Break Point 992 */
 
 @media screen and (min-width: 992px) {
     /* Profile Section */
@@ -85,6 +89,9 @@
     }
 
     /* Contact Container */
+    .contact-card {
+        width: 70%;
+    }
     .contact-get-in {
         font-size: 20px;
     }
@@ -104,6 +111,8 @@
         font-size: 20px;
     }
 }
+
+/* Break Point 1400 */
 
 @media screen and (min-width:1400px) {
     /* Profile Section */
@@ -175,10 +184,12 @@
     }
 
     /* Project Section */
+    
     .project-card {
         width: 25%;
     }
     /* Contact Section */
+
     .contact-get-in {
         font-size: 23px;
     }
@@ -187,6 +198,7 @@
         margin-bottom: 20px;
     }
     .contact-card {
+        width: 70%;
         height: 20vh;
         display: flex;
         flex-direction: row;
